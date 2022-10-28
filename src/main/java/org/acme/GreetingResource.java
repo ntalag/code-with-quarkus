@@ -24,8 +24,8 @@ public class GreetingResource {
     //     return "Hola from "+ appuser +":"+appSecretkey+ " Reactive";
     Map<String, Object> report = new HashMap<>();
     report.put("Greeting Fron Quarkus", "Hello World");
-    report.put("appUser", System.getenv("appUser"));
-    report.put("appSecret", System.getenv("appSecretkey"));
+    //report.put("appUser", System.getenv("appUser"));
+    //report.put("appSecret", System.getenv("appSecretkey"));
     String jsonResult="";
     ObjectMapper mapper = new ObjectMapper();
     try {
